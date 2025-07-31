@@ -1,3 +1,50 @@
+@font-face {
+    font-family: "Trebuchet";
+    src: url("./fonts/Trebuchet.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    background-color: coral;
+    background-color: rgb(84, 83, 139);
+    font-family: "trebuchet", sans-serif;
+    color: rgb(63, 89, 205);
+}
+
+header,main,footer{
+    background-color: rgb(71, 101, 182);
+    margin-top: 50px;
+}
+
+header{
+    height: 230px;
+}
+
+#logos{
+    width: 730px;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+}
+
+#menu{
+    width: 730px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#menu > li{
+    list-style: none;
+}
+main{
+    height: 840px;
+}
+
+footer{
+    height: 550px;
 }
