@@ -181,3 +181,31 @@ h1{
     margin: 20px;
     font-weight: 400;
 }
+
+#geral2{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.CARDS{
+    height: 320px;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+}
+
+.CARDS > ul{
+    width: 80%;
+    margin: auto;
+}
+
+#texto{
+    height: 320px;
+    width: 390px;
+}
